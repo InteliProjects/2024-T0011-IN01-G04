@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Definição da codificação da página para que utilize caracteres UTF-8 em sua exibição-->
+        <meta charset="UTF-8">
+
+        <!-- Configura a visualização e dimensões da página de acordo com o dispositivo que está acessando-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Define o título da página que aparece na aba do navegador -->
+        <title>Jornada do Educador</title>
+        <link rel='icon' type="image/x-icon" href="./assets/graduate-hat.png">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+        </style>
+        
+        <!-- Importa o arquivo/script/framework Phaser.js para desenvolvimento de jogos através do CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+        
+        <!-- Importa o arquivo CSS para estilização -->
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+
+<body>
+
+    <!-- Importa main.js como um módulo, seguido das cenas do jogo -->
+    
+
+    <script src="src/scenes/StartScreen.js"></script>
+    <script src="src/scenes/OASplashScreen.js"></script>
+    <script src="src/scenes/GOATSplashScreen.js"></script>
+    <script src="src/scenes/TitleScreen.js"></script>
+    <script src="src/scenes/Onboarding.js"></script> 
+    <script src="src/gameState.js"></script>   
+    <script src="src/scenes/Level1.js"></script>
+    <script src="src/scenes/Level1tutorial.js"></script>
+    <script src="src/scenes/Mapa.js"></script>
+    <script src="src/scenes/Minigame1.js"></script>
+    <script src="src/scenes/Level2.js"></script>
+    <script src="src/scenes/Minigame3.js"></script> 
+    <script src="src/scenes/Level2tutorial.js"></script>
+    <script src="src/scenes/Level5.js"></script>
+    <script src="src/scenes/Level5tutorial.js"></script>
+    <script src="src/scenes/Minigame5.js"></script>
+    <script src="src/scenes/Minigame2.js"></script>
+    <script src="src/scenes/Level3.js"></script>  
+    <script src="src/scenes/Level3tutorial.js"></script> 
+    
+    <script src="src/scenes/Level4.js"></script> 
+    <script src="src/scenes/Level4tutorial.js"></script> 
+    <script src="src/scenes/Minigame4.js"></script> 
+    <script type="module" src="src/main.js"></script>
+    
+</body>
+
+</html>
